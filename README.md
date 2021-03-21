@@ -3,11 +3,16 @@ Deepfakes represent AI generated videos of people doing or saying fictional thin
 Our goal is to create a deep learning model that is capable of recognizing deepfake videos.
 
 DATASET
+
 The dataset used is the deepfake detection challenge dataset available on Kaggle.
+
 The size of dataset downloaded is 4.13 GB, and the dataset is divided into training and test samples, each containing 400 videos.
+
 The training dataset is divided in the ratio of 80:20 for fake vs real.
 
+
 PROPOSED SOLUTION
+
 1.   Pre-process the data​
 Divide video into frames​
 Face detection and crop face from all frames​
@@ -24,6 +29,9 @@ Confusion Matrix​
 
 CONCLUSION
 Our project uses InceptionResNet-V2 transfer learning model, which is trained on massive image datasets as the pre-trained model. ​
+
 This model is comparatively better performing than other models in the area of image categorisation.​
+
 The evaluation  shows that the model trained on 400 short video dataset can achieve 91.19% accuracy with loss of 31.18%. ​
+
 With high-end computation power and more storage , a much more advanced model can be developed, which can take bigger videos in the input. ​
