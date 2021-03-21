@@ -2,7 +2,7 @@
 Deepfakes represent AI generated videos of people doing or saying fictional things by generating or replacing faces. This can be used for carrying out malicious and criminal practices such as evidence tampering, political manipulation, etc. With limited effort and simple equipment like smartphones, many new devices accessible on the Web have made it simpler than ever for anybody to create practical ”deepfakes.” Apps are released to public to create their own fake images or videos, e.g., FaceApp and ZAO.
 Our goal is to create a deep learning model that is capable of recognizing deepfake videos.
 
-DATASET
+DATASET: 
 
 The dataset used is the deepfake detection challenge dataset available on Kaggle.
 
@@ -11,24 +11,24 @@ The size of dataset downloaded is 4.13 GB, and the dataset is divided into train
 The training dataset is divided in the ratio of 80:20 for fake vs real.
 
 
-PROPOSED SOLUTION
+PROPOSED SOLUTION: 
 
-1.   Pre-process the data​
+1.   Pre-process the data: ​
 Divide video into frames​
 Face detection and crop face from all frames​
 Store the cropped face images in a new directory​
 
-2.   Modelling​
+2.   Modelling: ​
 InceptionResNet-v2 is used as a pretrained model.​
 The initial algorithm produces 64x64 pixel images. We resize them into 128x128 pixel images.​
 Activation function – SoftMax, Loss function – Binary cross-entropy, Optimization function- Adam.​
 
-3.   Evaluation​
+3.   Evaluation: ​
 Training and validation accuracy and loss​
 Confusion Matrix​
 
 
-CONCLUSION
+CONCLUSION: 
 
 Our project uses InceptionResNet-V2 transfer learning model, which is trained on massive image datasets as the pre-trained model. ​
 
