@@ -27,7 +27,9 @@ Activation function – SoftMax, Loss function – Binary cross-entropy, Optimiz
 Training and validation accuracy and loss​
 Confusion Matrix​
 
+
 CONCLUSION
+
 Our project uses InceptionResNet-V2 transfer learning model, which is trained on massive image datasets as the pre-trained model. ​
 
 This model is comparatively better performing than other models in the area of image categorisation.​
