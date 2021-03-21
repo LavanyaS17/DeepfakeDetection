@@ -34,6 +34,8 @@ Our project uses InceptionResNet-V2 transfer learning model, which is trained on
 
 This model is comparatively better performing than other models in the area of image categorisation.​
 
-The evaluation  shows that the model trained on 400 short video dataset can achieve 91.19% accuracy with loss of 31.18%. ​
+The evaluation  shows that the model trained on 400 short video dataset can achieve 91.19% validation accuracy with validation loss of 31.18%. Test accuracy = 99.52%, loss = 1.82%​
+
+Confusion Matrix results: True Positive = 2943, True Negative = 718, False positive = 43, False Negative = 41
 
 With high-end computation power and more storage , a much more advanced model can be developed, which can take bigger videos in the input. ​
